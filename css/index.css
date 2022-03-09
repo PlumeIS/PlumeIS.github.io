@@ -1,0 +1,143 @@
+@media (min-width: 0px) and (max-width:768px) {	
+	body{
+		background:url("../img/background.jpg") no-repeat center center fixed;
+		background-size:cover;
+		}
+	.toolbar{
+		overflow: hidden;
+		top: 0px;
+		left: 0px;
+		right: 0px;
+		
+		background-color: white;
+		position: fixed;
+		height: 48px;
+		width: 100%;
+		box-shadow: 0 2px 5px 0 rgba(162, 170, 169, 0.7);
+		z-index: 10;
+	}
+	#MuneLogo{
+		position: relative;
+		top: 4px;
+		left: 4px;
+		
+	}
+	#MuneButton{
+		position: relative;
+		float:right;
+		font-size: 18px;
+		text-decoration: none;
+		color: #55aa00;
+		padding: 12px 20px 12px 20px;
+		overflow: hidden;
+	}
+	#MuneButton:hover{
+		background-color: #55AA00;
+		color: #FFFFFF;
+	}
+	#AuthorInfo{
+		position: absolute;
+		background-color: rgba(255, 255, 255,0.8);
+		left: 16px;
+		top: 64px;
+		right: 16px;
+		height: auto;
+		border-radius: 5px 5px 5px 5px;
+		text-align: center;
+	}
+	#authorHP{
+		position: relative;
+		top: 5px;
+		left: auto;
+	}
+	#MainInfo{
+		position: absolute;
+		background-color: rgba(255, 255, 255,0.8);
+		top: 580px;
+		left: 16px;
+		right: 16px;
+		height: 1000px;
+		border-radius: 5px 5px 5px 5px;
+		text-align: center;
+	}
+	#MainInfo p{
+		color: gray;
+	}
+	#furry{
+		position: absolute;
+		left: 16px;
+		top: 1570px;
+		color: #595959;
+	}
+}
+@media (min-width: 769px) {
+	body{
+		background:url("../img/background.jpg") no-repeat center center fixed;
+		background-size:cover;
+		}
+	.toolbar{
+		overflow: hidden;
+		top: 0px;
+		left: 0px;
+		right: 0px;
+		
+		background-color: white;
+		position: fixed;
+		height: 48px;
+		width: 100%;
+		box-shadow: 0 2px 5px 0 rgba(162, 170, 169, 0.7);
+		z-index: 10;
+	}
+	#MuneLogo{
+		position: relative;
+		top: 4px;
+		left: 4px;
+		
+	}
+	#MuneButton{
+		position: relative;
+		float:right;
+		font-size: 18px;
+		text-decoration: none;
+		color: #55aa00;
+		padding: 12px 20px 12px 20px;
+		overflow: hidden;
+	}
+	#MuneButton:hover{
+		background-color: #55AA00;
+		color: #FFFFFF;
+	}
+	#AuthorInfo{
+		position: absolute;
+		background-color: rgba(255, 255, 255,0.8);
+		left: 16px;
+		top: 64px;
+		width: 300px;
+		height: auto;
+		border-radius: 5px 5px 5px 5px;
+	}
+	#authorHP{
+		position: relative;
+		top: 5px;
+		left: 5px;
+	}
+	#MainInfo{
+		position: absolute;
+		background-color: rgba(255, 255, 255,0.8);
+		top: 64px;
+		left: 332px;
+		right: 16px;
+		height: 1000px;
+		border-radius: 5px 5px 5px 5px;
+		text-align: center;
+	}
+	#MainInfo p{
+		color: gray;
+	}
+	#furry{
+		position: absolute;
+		left: 332px;
+		top: 1050px;
+		color: #595959;
+	}
+}
