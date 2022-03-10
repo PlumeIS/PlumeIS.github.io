@@ -8,8 +8,7 @@
 	<title>绿毛的网站</title>
 	<link rel="shortcut icon" href="img/favicon.ico">
     <link rel="stylesheet" type="text/css" href="/css/style.css">
-</head>
-<body>
+	<script type="text/javascript" src="../js/mune.js"></script>
 	<div class="toolbar">
 		<a href="/">
 			<img src="./img/logo.png" id="MuneLogo" / >
@@ -20,8 +19,34 @@
 		<a href="https://space.bilibili.com/109673887" id="MuneButton">组织</a>
 		<a href="https://github.com/PlumeIS" id="MuneButton">github</a>
 		<a href="https://space.bilibili.com/430417710" id="MuneButton">bilibili</a>
-		<a href="/" id="MuneButton">???</a>
+		<a href="/warn.html" id="MuneButton">???</a>
 	</div>
+	<div class="mToolbar">
+		<button id="mToolbarButton" onclick="OpenMune()">
+			<span></span>
+			<span></span>
+			<span></span>
+		</button>
+		<a href="/" style="position: relative;float: right;top: 4px;right: 4px;">
+			<img src="./img/logo.png" / >
+		</a>
+	</div>
+	<aside class="Mune">
+		<div id="QuitMune" onclick="QuitMune()" on></div>
+		<div id="ClickMune">
+			<ul>
+				<li><a href="/">首页</a></li>
+				<li><a href="#AuthorInfo">关于</a></li>
+				<li><a href="https://github.com/PlumeIS?tab=repositories">项目</a></li>
+				<li><a href="https://space.bilibili.com/109673887">组织</a></li>
+				<li><a href="https://github.com/PlumeIS">github</a></li>
+				<li><a href="https://space.bilibili.com/430417710">bilibili</a></li>
+				<li><a href="/warn.html">???</a></li>
+			</ul>
+		</div>
+	</aside>
+</head>
+<body>
 	<div id="AuthorInfo">
 		<img src="./img/authorHP.png" / id="authorHP">
 		<p align="center" style='font-family: "microsoft yahei";font-size: 25px;color: rgb(0, 170, 0);'>很绿の羽毛</p>
