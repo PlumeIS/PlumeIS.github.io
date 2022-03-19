@@ -104,7 +104,7 @@
 	}
 	#AuthorInfo{
 		position: absolute;
-		background-color: rgba(255, 255, 255,0.8);
+		background-color: rgba(255, 255, 255,0.6);
 		left: 16px;
 		top: 64px;
 		right: 16px;
@@ -120,7 +120,7 @@
 	}
 	#MainInfo{
 		position: absolute;
-		background-color: rgba(255, 255, 255,0.8);
+		background-color: rgba(255, 255, 255,0.6);
 		top: 580px;
 		left: 16px;
 		right: 16px;
@@ -129,7 +129,7 @@
 		text-align: center;
 	}
 	#MainInfo p{
-		color: gray;
+		color: dimgray;
 	}
 	#furry{
 		position: absolute;
@@ -139,7 +139,7 @@
 	}
 	#warn{
 		position: absolute;
-		background-color: rgba(255, 255, 255,0.8);
+		background-color: rgba(255, 255, 255,0.6);
 		width: 175px;
 		height: 190px;
 		margin: auto;
@@ -152,7 +152,7 @@
 		text-align: center;
 	}
 	#warn p{
-		color: gray;
+		color: dimgray;
 	}
 	#warn a{
 		color: #55AA00;
@@ -207,7 +207,7 @@
 	}
 	#AuthorInfo{
 		position: absolute;
-		background-color: rgba(255, 255, 255,0.8);
+		background-color: rgba(255, 255, 255,0.6);
 		left: 16px;
 		top: 64px;
 		width: 300px;
@@ -221,7 +221,7 @@
 	}
 	#MainInfo{
 		position: absolute;
-		background-color: rgba(255, 255, 255,0.8);
+		background-color: rgba(255, 255, 255,0.6);
 		top: 64px;
 		left: 332px;
 		right: 16px;
@@ -230,7 +230,7 @@
 		text-align: center;
 	}
 	#MainInfo p{
-		color: gray;
+		color: dimgray;
 	}
 	#furry{
 		position: absolute;
@@ -240,7 +240,7 @@
 	}
 	#warn{
 		position: absolute;
-		background-color: rgba(255, 255, 255,0.8);
+		background-color: rgba(255, 255, 255,0.6);
 		width: 175px;
 		height: 190px;
 		margin: auto;
@@ -253,7 +253,7 @@
 		text-align: center;
 	}
 	#warn p{
-		color: gray;
+		color: dimgray;
 	}
 	#warn a{
 		color: #55AA00;
