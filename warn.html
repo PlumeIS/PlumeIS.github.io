@@ -7,21 +7,27 @@
 	<meta name="google" content="notranslate" />
 	<title>绿毛的网站</title>
 	<link rel="shortcut icon" href="img/favicon.ico">
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
-	<script type="text/javascript" src="../js/mune.js"></script>
-	<div class="toolbar">
+	
+    <link rel="stylesheet" type="text/css" href="/css/toolbar.css">
+	<link rel="stylesheet" type="text/css" href="/css/warn.css">
+	
+	<script type="text/javascript" src="/js/mune.js"></script>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="https://cdn.bootcss.com/blueimp-md5/2.12.0/js/md5.min.js"></script>
+	<script type="text/javascript" src="/js/views.js"></script>
+	<div id="toolbar">
 		<a href="/">
 			<img src="./img/logo.png" id="MuneLogo" / >
 		</a>
-		<a href="/" id="MuneButton">首页</a>
-		<a href="#AuthorInfo" id="MuneButton">关于</a>
-		<a href="https://github.com/PlumeIS?tab=repositories" id="MuneButton">项目</a>
-		<a href="https://space.bilibili.com/109673887" id="MuneButton">组织</a>
-		<a href="https://github.com/PlumeIS" id="MuneButton">github</a>
-		<a href="https://space.bilibili.com/430417710" id="MuneButton">bilibili</a>
-		<a href="/warn.html" id="MuneButton">???</a>
+		<a href="/" class="MuneButton">首页</a>
+		<a href="#AuthorInfo" class="MuneButton">关于</a>
+		<a href="https://github.com/PlumeIS?tab=repositories" class="MuneButton">项目</a>
+		<a href="https://space.bilibili.com/109673887" class="MuneButton">组织</a>
+		<a href="https://github.com/PlumeIS" class="MuneButton">github</a>
+		<a href="https://space.bilibili.com/430417710" class="MuneButton">bilibili</a>
+		<a href="/warn.html" class="MuneButton">纪念馆</a>
 	</div>
-	<div class="mToolbar">
+	<div id="mToolbar">
 		<button id="mToolbarButton" onclick="OpenMune()">
 			<span></span>
 			<span></span>
@@ -31,17 +37,17 @@
 			<img src="./img/logo.png" / >
 		</a>
 	</div>
-	<aside class="Mune">
+	<aside id="Mune">
 		<div id="QuitMune" onclick="QuitMune()" on></div>
 		<div id="ClickMune">
 			<ul>
 				<li><a href="/">首页</a></li>
-				<li><a href="/#AuthorInfo">关于</a></li>
+				<li><a href="#AuthorInfo">关于</a></li>
 				<li><a href="https://github.com/PlumeIS?tab=repositories">项目</a></li>
 				<li><a href="https://space.bilibili.com/109673887">组织</a></li>
 				<li><a href="https://github.com/PlumeIS">github</a></li>
 				<li><a href="https://space.bilibili.com/430417710">bilibili</a></li>
-				<li><a href="/warn.html">???</a></li>
+				<li><a href="/warn.html">纪念馆</a></li>
 			</ul>
 		</div>
 	</aside>
@@ -49,7 +55,7 @@
 <body>
 	<div id="warn">
 		<p><br />温馨提示:<br />此页面会播放声音<br />请注意音量<br /><br /></p>
-		<a href="/rr.html">继续前往</a>
+		<a href="/mh/HomePage.html">继续前往</a>
 	</div>
 </body>
 </html>

@@ -1,0 +1,72 @@
+@media (min-width: 0px) and (max-width:768px) {	
+	#AuthorInfo{
+		position: absolute;
+		background-color: rgba(255, 255, 255,0.6);
+		left: 16px;
+		top: 64px;
+		right: 16px;
+		height: auto;
+		border-radius: 5px 5px 5px 5px;
+		text-align: center;
+		overflow: overlay ;
+	}
+	#authorHP{
+		position: relative;
+		top: 5px;
+		left: auto;
+	}
+	#MainInfo{
+		position: absolute;
+		background-color: rgba(255, 255, 255,0.6);
+		top: 580px;
+		left: 16px;
+		right: 16px;
+		height: 1000px;
+		border-radius: 5px 5px 5px 5px;
+		text-align: center;
+	}
+	#MainInfo p{
+		color: dimgray;
+	}
+	#furry{
+		position: absolute;
+		left: 16px;
+		top: 1570px;
+		color: #595959;
+	}
+}
+@media (min-width: 769px) {
+	#AuthorInfo{
+		position: absolute;
+		background-color: rgba(255, 255, 255,0.6);
+		left: 16px;
+		top: 64px;
+		width: 300px;
+		height: auto;
+		border-radius: 5px 5px 5px 5px;
+	}
+	#authorHP{
+		position: relative;
+		top: 5px;
+		left: 5px;
+	}
+	#MainInfo{
+		position: absolute;
+		background-color: rgba(255, 255, 255,0.6);
+		top: 64px;
+		left: 332px;
+		right: 16px;
+		height: 1000px;
+		border-radius: 5px 5px 5px 5px;
+		text-align: center;
+	}
+	#MainInfo p{
+		color: dimgray;
+	}
+	#furry{
+		position: absolute;
+		left: 332px;
+		top: 1050px;
+		color: #595959;
+	}
+}

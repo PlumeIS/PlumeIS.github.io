@@ -3,10 +3,10 @@
 		background:url("../img/background.jpg") no-repeat center center fixed;
 		background-size:cover;
 		}
-	.toolbar{
+	#toolbar{
 		visibility: hidden;
 	}
-	.mToolbar{
+	#mToolbar{
 		overflow: hidden;
 		top: 0px;
 		left: 0px;
@@ -89,7 +89,7 @@
 		left: 4px;
 		
 	}
-	#MuneButton{
+	.MuneButton{
 		position: relative;
 		float:right;
 		font-size: 18px;
@@ -98,65 +98,9 @@
 		padding: 12px 20px 12px 20px;
 		overflow: hidden;
 	}
-	#MuneButton:hover{
+	.MuneButton:hover{
 		background-color: #55AA00;
 		color: #FFFFFF;
-	}
-	#AuthorInfo{
-		position: absolute;
-		background-color: rgba(255, 255, 255,0.6);
-		left: 16px;
-		top: 64px;
-		right: 16px;
-		height: auto;
-		border-radius: 5px 5px 5px 5px;
-		text-align: center;
-		overflow: overlay ;
-	}
-	#authorHP{
-		position: relative;
-		top: 5px;
-		left: auto;
-	}
-	#MainInfo{
-		position: absolute;
-		background-color: rgba(255, 255, 255,0.6);
-		top: 580px;
-		left: 16px;
-		right: 16px;
-		height: 1000px;
-		border-radius: 5px 5px 5px 5px;
-		text-align: center;
-	}
-	#MainInfo p{
-		color: dimgray;
-	}
-	#furry{
-		position: absolute;
-		left: 16px;
-		top: 1570px;
-		color: #595959;
-	}
-	#warn{
-		position: absolute;
-		background-color: rgba(255, 255, 255,0.6);
-		width: 175px;
-		height: 190px;
-		margin: auto;
-		position: absolute;
-		top: 0;
-		left: 0;
-		right: 0;
-		bottom: 0;
-		border-radius: 5px 5px 5px 5px;
-		text-align: center;
-	}
-	#warn p{
-		color: dimgray;
-	}
-	#warn a{
-		color: #55AA00;
-		text-decoration: none;
 	}
 }
 @media (min-width: 769px) {
@@ -164,7 +108,7 @@
 		background:url("../img/background.jpg") no-repeat center center fixed;
 		background-size:cover;
 		}
-	.toolbar{
+	#toolbar{
 		overflow: hidden;
 		top: 0px;
 		left: 0px;
@@ -177,7 +121,7 @@
 		box-shadow: 0 2px 5px 0 rgba(162, 170, 169, 0.7);
 		z-index: 10;
 	}
-	.mToolbar{
+	#mToolbar{
 		visibility: hidden;
 	}
 	#ClickMune{
@@ -192,7 +136,7 @@
 		left: 4px;
 		
 	}
-	#MuneButton{
+	.MuneButton{
 		position: relative;
 		float:right;
 		font-size: 18px;
@@ -201,62 +145,8 @@
 		padding: 12px 20px 12px 20px;
 		overflow: hidden;
 	}
-	#MuneButton:hover{
+	.MuneButton:hover{
 		background-color: #55AA00;
 		color: #FFFFFF;
-	}
-	#AuthorInfo{
-		position: absolute;
-		background-color: rgba(255, 255, 255,0.6);
-		left: 16px;
-		top: 64px;
-		width: 300px;
-		height: auto;
-		border-radius: 5px 5px 5px 5px;
-	}
-	#authorHP{
-		position: relative;
-		top: 5px;
-		left: 5px;
-	}
-	#MainInfo{
-		position: absolute;
-		background-color: rgba(255, 255, 255,0.6);
-		top: 64px;
-		left: 332px;
-		right: 16px;
-		height: 1000px;
-		border-radius: 5px 5px 5px 5px;
-		text-align: center;
-	}
-	#MainInfo p{
-		color: dimgray;
-	}
-	#furry{
-		position: absolute;
-		left: 332px;
-		top: 1050px;
-		color: #595959;
-	}
-	#warn{
-		position: absolute;
-		background-color: rgba(255, 255, 255,0.6);
-		width: 175px;
-		height: 190px;
-		margin: auto;
-		position: absolute;
-		top: 0;
-		left: 0;
-		right: 0;
-		bottom: 0;
-		border-radius: 5px 5px 5px 5px;
-		text-align: center;
-	}
-	#warn p{
-		color: dimgray;
-	}
-	#warn a{
-		color: #55AA00;
-		text-decoration: none;
 	}
 }
