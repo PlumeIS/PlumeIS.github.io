@@ -1,6 +1,6 @@
 @media (min-width: 0px) and (max-width:768px) {	
 	body{
-		background:url("../img/background.jpg") no-repeat center center fixed;
+		background:url("../img/background.png") no-repeat center center fixed;
 		background-size:cover;
 		}
 	#toolbar{
