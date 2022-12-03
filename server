@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小Q云</title>
+    <link rel="shortcut icon" href="img/logo.png">
+    <style>
+        #buy {
+            min-width: 130px;
+            height: 40px;
+            color: #fff;
+            padding: 5px 10px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: relative;
+            display: inline-block;
+            outline: none;
+            border-radius: 20px;
+            border: 2px solid #65a7dd;
+            background: #65a7dd;
+        }
+        
+        #buy:hover {
+            background: #fff;
+            color: #65a7dd
+        }
+        
+        #info {
+            margin-left: 20px;
+            min-width: 130px;
+            height: 40px;
+            color: #65a7dd;
+            padding: 5px 10px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: relative;
+            display: inline-block;
+            outline: none;
+            border-radius: 20px;
+            border: 2px solid #65a7dd;
+            background: #fff;
+        }
+        
+        #info:hover {
+            background: #65a7dd;
+            color: #fff
+        }
+    </style>
+</head>
+
+<body style="overflow: hidden"><img src="img/logo.png" style="width: 50px;" />
+    <p align="center" , style="font-size: 50px; position: relative; top: -80px; color: #65a7dd;">高性能云服务器</p>
+    <p style="text-align: center; position: relative; top: -180px; right: -20px;"><img src="img/potato.png" /></p>
+    <p align="center" , style="position: relative; top: -230px; font-size: 20px">3.7元/公斤</p>
+    <div style="position: relative; top: -230px;">
+        <p align="center">
+            <button id="buy">立刻订购</button>
+            <button id="info">了解详情</button>
+        </p>
+    </div>
+</body>
+
+</html>
