@@ -44,8 +44,8 @@
 
 ### POST `/upload?token=&path=`  
 接口描述: 用于上传结构  
-传入数据 `Muiltpart/data-form`:   
-### 注意! 因为KGG执意要求 `token`,`path` 被放到了 URL 里 只有 `file` 使用 `Muiltpart/data-form` 其他则为 `Params` 不知道为什么 很想吐槽一下
+传入数据 `Muiltpart/form-data`:   
+### 注意! 因为KGG执意要求 `token`,`path` 被放到了 URL 里 只有 `file` 使用 `Muiltpart/form-data` 其他则为 `Params` 不知道为什么 很想吐槽一下
 
 | 参数名   | 类型             | 描述     |
 |-------|----------------|--------|
