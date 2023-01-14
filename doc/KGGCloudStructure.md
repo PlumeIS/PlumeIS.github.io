@@ -42,7 +42,7 @@
 
 ---
 
-### POST `\upload`  
+### POST `/upload`  
 接口描述: 用于上传结构  
 传入数据 `Muiltpart/data-form`:   
 ### 注意! 因为KGG执意要求 `token`,`path` 被放到了 URL 里 只有 `file` 使用 `Muiltpart/data-form` 其他则为 `Params` 不知道为什么 很想吐槽一下
@@ -70,7 +70,7 @@
 
 ---
 
-### GET `\download?token=&path=`  
+### GET `/download?token=&path=`  
 接口描述: 用于上传结构  
 传入数据 `表单数据`:  
 
