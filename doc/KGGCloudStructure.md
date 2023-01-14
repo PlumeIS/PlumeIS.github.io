@@ -13,9 +13,11 @@
 ---
 
 <h2 id="interface">接口</h2>
-### POST `/get_token`  
+
+### POST `/get_token`    
 
 接口描述: 用于验证用户 返回密钥应包含用户消息已用于下载时区分用户 云结构mod在调用/download时并不会传入用户信息  
+
 传入数据 `JSON`:  
 
 | 参数名    | 类型     | 描述          |
