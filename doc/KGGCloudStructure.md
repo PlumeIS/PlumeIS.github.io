@@ -109,7 +109,7 @@
         token = request.args["token"]
         path = request.args["path"]
         # 通过MC服务器发来的授权码获取上传结构的用户
-        user = token[:-3]  # 注意 获取最好在密钥中使用对称加密存储用户信息
+        user = token[:-3]  # 注意 最好在密钥中使用对称加密存储用户信息
         file = request.files["file"]
         open(user+"/"+path+".nbt", "wb").write(file.stream.read())
         return jsonify(code=-400, message="上传失败")
