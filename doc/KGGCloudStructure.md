@@ -32,7 +32,7 @@
 | 参数名   | 类型      | 值        | 描述        |
 |-------|---------|----------|-----------|
 | code  | integer | 200      | 操作状态      |
-| token | string  | 随机不定长字符串 | 用于下载与上传操作 |
+| token | string  | 任意不定长字符串 | 用于下载与上传操作 |
 
 诺验证失败 需返回:
 
@@ -98,8 +98,10 @@
     @app.route("/get_token", methods=["POST"])
     def token():
         """客户端向网站发送请求获得授权码，再将授权码发送给MC服务器"""
-        user = request.form["user"]
-        passwd = request.form["passwd"]
+        data = request.get_json()
+        user = data["user"]
+        passwd = data["passwd"]
+        method = data["method"]
         token = user + "123"  # 授权码应该是随机生成的，这里只是举例
         return jsonify(code=200, token=token)
     
@@ -119,8 +121,8 @@
     @app.route("/download", methods=["GET"])
     def download():
         """MC服务器下载结构"""
-        token = request.form["token"]
-        path = request.form["path"]
+        token = request.args["token"]
+        path = request.args["path"]
     
         user = token[:-3]
         return send_from_directory("", user + "/" + path + ".nbt")
